@@ -1,0 +1,39 @@
+:root{
+    --principal: rgb(152, 252, 197);
+    --secundaria: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(177, 177, 177);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    max-width: 25%;
+    margin-left: 8px;
+    margin-top: 15px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+    margin-right: 10px;
+
+}
+
+header nav a:hover{
+    color: var(--principal);
+}
