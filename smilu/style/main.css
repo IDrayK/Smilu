@@ -49,10 +49,9 @@ margin-right: 2%;
 
 .principal{
     font-size: 16px;
-    background:linear-gradient(rgba(133, 226, 250, 0.705),rgba(26, 21, 21, 0.753)), url(/galeria/.png);
+    background:linear-gradient(rgba(7, 120, 248, 0.281),rgba(146, 4, 4, 0.349)), url(/galeria/MedHead.png);
     height: 400px;
     background-size: cover;
-    background-size: 50%;
 
     margin-top: 15px;
     border: 1px solid rgb(255, 255, 255);
@@ -72,7 +71,7 @@ margin-right: 2%;
 
 .principal .titulo{
  
-    background:linear-gradient(to bottom left, rgba(11, 27, 245, 0.575), rgb(194, 3, 3),rgb(8, 87, 233), rgb(131, 35, 35),rgba(17, 81, 255, 0.637));
+    background:linear-gradient(to bottom left, rgba(128, 251, 255, 0.822),rgb(222, 231, 255));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -81,7 +80,7 @@ margin-right: 2%;
 .principal .descricao{
     margin-left: 2%;
 
-    color: var(--texto);
+    color: white;
     font-family:cursive, Arial;
     font-size: 19px;
 }
